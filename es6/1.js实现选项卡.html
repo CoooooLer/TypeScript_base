@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    button.active {
+      /*-webkit-text-size-adjust:none;*/
+      font-size:9px;
+      background: aqua;
+    }
+    p.active{
+      display: block;
+    }
+    p{
+      display: none;
+    }
+  </style>
+</head>
+<body>
+<button class="active">按钮一</button>
+<button>按钮二</button>
+<button>按钮三</button>
+<p class="active">内容1</p>
+<p>内容2</p>
+<p>内容3</p>
+
+<script>
+  var buttons = document.querySelectorAll('button')
+  var ps = document.querySelectorAll('p')
+
+  // for(var i=0; i<buttons.length; i++) {
+  //   buttons[i].index = i
+  //   buttons[i].onclick = function () {
+  //     console.log(i)
+  //     console.log(this.index)
+  //
+  //     for(var i=0; i<buttons.length; i++) {
+  //       buttons[i].className = ''
+  //       ps[i].className = ''
+  //     }
+  //
+  //     this.className = 'active'
+  //     ps[this.index].className = 'active'
+  //   }
+  // }
+
+  for(let i=0; i<buttons.length; i++) {
+    buttons[i].onclick = function () {
+      console.log(i)
+
+      for(let i=0; i<buttons.length; i++) {
+        buttons[i].className = ''
+        ps[i].className = ''
+      }
+
+      this.className = 'active'
+      ps[i].className = 'active'
+    }
+  }
+
+</script>
+</body>
+</html>
