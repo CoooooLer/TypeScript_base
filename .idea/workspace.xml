@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4df250a-617b-43fc-b0de-0a3d9aca1dcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10.命名空间/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.命名空间/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.命名空间/modules/animal.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7.泛型/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7.泛型/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.demo接口、类、泛型封装mysql底层操作类库/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.demo接口、类、泛型封装mysql底层操作类库/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.模块/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.模块/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.模块/model/article.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.模块/model/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.模块/modules/db.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.装饰器/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.装饰器/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/1.demo/node_modules/" />
@@ -28,29 +18,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11.装饰器/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11.装饰器/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/10.命名空间/index.html">
+        <entry file="file://$PROJECT_DIR$/11.装饰器/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10.命名空间/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10.命名空间/modules/animal.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="-4625">
+              <caret line="60" column="2" lean-forward="true" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -112,12 +102,15 @@
         <option value="$PROJECT_DIR$/10.命名空间/tsconfig.json" />
         <option value="$PROJECT_DIR$/10.命名空间/index.ts" />
         <option value="$PROJECT_DIR$/10.命名空间/modules/animal.ts" />
+        <option value="$PROJECT_DIR$/11.装饰器/index.html" />
+        <option value="$PROJECT_DIR$/11.装饰器/tsconfig.json" />
+        <option value="$PROJECT_DIR$/11.装饰器/index.ts" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="514" />
-    <option name="y" value="169" />
+    <option name="x" value="914" />
+    <option name="y" value="64" />
     <option name="width" value="1325" />
     <option name="height" value="1016" />
   </component>
@@ -183,11 +176,12 @@
       <workItem from="1573443013820" duration="17121000" />
       <workItem from="1573521271080" duration="10567000" />
       <workItem from="1573606754739" duration="23936000" />
+      <workItem from="1573708226042" duration="11792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51624000" />
+    <option name="totallyTimeSpent" value="63416000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -199,9 +193,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="514" y="169" width="1325" height="1016" extended-state="0" />
+    <frame x="914" y="64" width="1325" height="1016" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16860917" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16860917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -213,7 +208,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32915717" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="TypeScript" order="9" visible="true" weight="0.25141564" />
+      <window_info active="true" anchor="bottom" id="TypeScript" order="9" visible="true" weight="0.25141564" />
       <window_info anchor="bottom" id="RNConsole" order="10" weight="0.32915717" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3405467" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -487,10 +482,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10.命名空间/modules/animal.ts">
+    <entry file="file://$PROJECT_DIR$/10.命名空间/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        <state relative-caret-position="198">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -501,10 +496,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10.命名空间/index.html">
+    <entry file="file://$PROJECT_DIR$/10.命名空间/modules/animal.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="550">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.装饰器/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.装饰器/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.装饰器/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4625">
+          <caret line="60" column="2" lean-forward="true" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
         </state>
       </provider>
     </entry>
