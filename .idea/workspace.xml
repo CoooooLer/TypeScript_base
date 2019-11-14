@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4df250a-617b-43fc-b0de-0a3d9aca1dcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/6.TS中接口的用途/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.TS中接口的用途/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.命名空间/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.命名空间/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.命名空间/modules/animal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.泛型/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.泛型/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.demo接口、类、泛型封装mysql底层操作类库/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.demo接口、类、泛型封装mysql底层操作类库/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.模块/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.模块/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.模块/model/article.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.模块/model/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.模块/modules/db.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.TS类的扩展/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/5.TS类的扩展/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.TS类的扩展/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/5.TS类的扩展/js/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/1.demo/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,29 +28,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/10.命名空间/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6.TS中接口的用途/index.html">
+        <entry file="file://$PROJECT_DIR$/10.命名空间/index.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6.TS中接口的用途/tsconfig.json">
+        <entry file="file://$PROJECT_DIR$/10.命名空间/modules/animal.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/6.TS中接口的用途/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="284" column="17" selection-start-line="284" selection-start-column="17" selection-end-line="284" selection-end-column="17" />
+            <state relative-caret-position="220">
+              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -87,12 +95,29 @@
         <option value="$PROJECT_DIR$/6.TS中接口的用途/index.html" />
         <option value="$PROJECT_DIR$/6.TS中接口的用途/tsconfig.json" />
         <option value="$PROJECT_DIR$/6.TS中接口的用途/index.ts" />
+        <option value="$PROJECT_DIR$/7.泛型/tsconfig.json" />
+        <option value="$PROJECT_DIR$/7.泛型/index.html" />
+        <option value="$PROJECT_DIR$/7.泛型/index.ts" />
+        <option value="$PROJECT_DIR$/8.demo接口、类、泛型封装mysql底层操作类库/tsconfig.json" />
+        <option value="$PROJECT_DIR$/8.demo接口、类、泛型封装mysql底层操作类库/index.html" />
+        <option value="$PROJECT_DIR$/8.demo接口、类、泛型封装mysql底层操作类库/index.ts" />
+        <option value="$PROJECT_DIR$/9.模块/tsconfig.json" />
+        <option value="$PROJECT_DIR$/9.模块/index.html" />
+        <option value="$PROJECT_DIR$/9.模块/modules/db.ts" />
+        <option value="$PROJECT_DIR$/9.模块/js/model/article.ts" />
+        <option value="$PROJECT_DIR$/9.模块/model/user.ts" />
+        <option value="$PROJECT_DIR$/9.模块/model/article.ts" />
+        <option value="$PROJECT_DIR$/9.模块/index.ts" />
+        <option value="$PROJECT_DIR$/10.命名空间/index.html" />
+        <option value="$PROJECT_DIR$/10.命名空间/tsconfig.json" />
+        <option value="$PROJECT_DIR$/10.命名空间/index.ts" />
+        <option value="$PROJECT_DIR$/10.命名空间/modules/animal.ts" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1088" />
-    <option name="y" value="101" />
+    <option name="x" value="514" />
+    <option name="y" value="169" />
     <option name="width" value="1325" />
     <option name="height" value="1016" />
   </component>
@@ -101,6 +126,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,7 +138,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -129,6 +154,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\TypeScript\9.模块\model" />
       <recent name="E:\TypeScript" />
     </key>
   </component>
@@ -155,12 +181,13 @@
       <option name="presentableId" value="Default" />
       <updated>1573443011016</updated>
       <workItem from="1573443013820" duration="17121000" />
-      <workItem from="1573521271080" duration="9788000" />
+      <workItem from="1573521271080" duration="10567000" />
+      <workItem from="1573606754739" duration="23936000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26909000" />
+    <option name="totallyTimeSpent" value="51624000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -172,10 +199,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1088" y="101" width="1325" height="1016" extended-state="0" />
-    <editor active="true" />
+    <frame x="514" y="169" width="1325" height="1016" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11655012" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16860917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -187,7 +213,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32915717" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="TypeScript" order="9" visible="true" weight="0.30124575" />
+      <window_info anchor="bottom" id="TypeScript" order="9" visible="true" weight="0.25141564" />
       <window_info anchor="bottom" id="RNConsole" order="10" weight="0.32915717" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3405467" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -201,6 +227,7 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/1.数据类型/index.js" />
+        <option value="$PROJECT_DIR$/9.模块/js/model/user.js" />
       </list>
     </option>
   </component>
@@ -335,6 +362,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/6.TS中接口的用途/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="282" column="9" lean-forward="true" selection-start-line="282" selection-start-column="9" selection-end-line="282" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/6.TS中接口的用途/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -345,14 +379,132 @@
     <entry file="file://$PROJECT_DIR$/6.TS中接口的用途/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6.TS中接口的用途/index.ts">
+    <entry file="file://$PROJECT_DIR$/7.泛型/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="284" column="17" selection-start-line="284" selection-start-column="17" selection-end-line="284" selection-end-column="17" />
+        <state relative-caret-position="286">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.泛型/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.泛型/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.demo接口、类、泛型封装mysql底层操作类库/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.demo接口、类、泛型封装mysql底层操作类库/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.模块/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.模块/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.模块/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.demo接口、类、泛型封装mysql底层操作类库/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.模块/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#39#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.模块/model/article.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.模块/modules/db.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.模块/model/user.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10.命名空间/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10.命名空间/modules/animal.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10.命名空间/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10.命名空间/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
